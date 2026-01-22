@@ -1,0 +1,53 @@
+INTERACTIVE_MODELS_PATH: "./home/ubuntu/liu/ClickSEG-main/experiments/cdnet/cdnet_res34_sbd/000_first_try/checkpoints"
+EXPS_PATH: "./experiments"
+
+
+# Evaluation datasets
+GRABCUT_PATH: "/home/ubuntu/liu/DataSet/GrabCut"
+BERKELEY_PATH: "/home/ubuntu/liu/DataSet/Berkeley"
+DAVIS_PATH:  "/home/ubuntu/liu/DataSet/DAVIS"
+COCO_MVAL_PATH: "/home/ubuntu/liu/DataSet/COCO_MVal"
+PASCALVOC_PATH: "/home/ubuntu/liu/DataSet/VOCdevkit/VOC2012"
+DAVIS585_PATH: "/home/admin/workspace/project/data/datasets/InterDavis/Selected_480P"
+
+# Train datasets
+SBD_PATH:  "/home/ubuntu/liu/DataSet/benchmark_RELEASE/dataset"
+COCO_PATH: "/home/xizhi.cx/data/dataset/COCO"
+LVIS_PATH: "/home/admin/workspace/project/data/datasets/COCO_LVIS"
+CVC_PATH: "/home/ubuntu/liu/DataSet/CVC_ClinicDB"
+LVIS_v1_PATH: "/home/ubuntu/liu/DataSet/LVIS"
+OPENIMAGES_PATH: "/home/xizhi.cx/data/dataset/OpenImage"
+ADE20K_PATH: "/home/admin/workspace/project/data/datasets/ADE20K"
+
+# Extra options for training
+THINOBJECT_PATH: "/home/admin/workspace/project/data/datasets/ThinObject/ThinObject5K"
+MSRA10K_PATH: "/home/admin/workspace/project/data/datasets/Saliency/MSRA10K_Imgs_GT/Imgs"
+DUT_TR_PATH: "/home/admin/workspace/project/data/datasets/Saliency/DUTS-TR/DUTS-TR-Image"
+DUT_TE_PATH: "/home/admin/workspace/project/data/datasets/Saliency/DUTS-TE/DUTS-TE-Image"
+YTBVOS_PATH: "/home/admin/workspace/project/data/datasets/YTBVOS"
+HFLICKER_PATH: "/home/admin/workspace/project/data/datasets/HFlickr"
+
+
+# You can download the weights for HRNet from the repository:
+# https://github.com/HRNet/HRNet-Image-Classification
+IMAGENET_PRETRAINED_MODELS:
+  HRNETV2_W18_SMALL: "/home/ubuntu/liu/ClickSEG-main/pretrained_model/hrnet_w18_small_model_v2.pth"
+  HRNETV2_W32: "/home/admin/workspace/project/data/weights/hrnetv2_w32_imagenet_pretrained.pth"
+  HRNETV2_W40: "./pretrained_models/hrnetv2_w40_imagenet_pretrained.pth"
+  HRNETV2_W48: "./pretrained_models/hrnetv2_w48_imagenet_pretrained.pth"
+  SEGFORMER_B0: "/home/ubuntu/liu/ClickSEG-main/pretrained_model/mit_b0.pth"
+  SEGFORMER_B1: "/home/admin/workspace/project/data/weights/Segformer/mit_b1.pth"
+  SEGFORMER_B3: "/home/ubuntu/liu/ClickSEG-main/pretrained_model/mit_b3.pth"
+  PPLCNET_X1 : "/home/admin/workspace/project/data/weights/PPLC/PP-LCNet/PPLCNet_x1_0_ssld_pretrained.pth"
+  MOBILENETV2: "/home/admin/workspace/project/data/weights/mobilenetV2-15498621.pth"
+  MAE_BASE: "/home/ubuntu/liu/ClickSEG-main/pretrained_model/mae_pretrain_vit_base.pth"
+
+
+
+
+
+
+
+
+
+
