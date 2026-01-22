@@ -12,7 +12,7 @@ This is the official implementation of the paper "Interaction-Guided Attention a
 </div>
 </br>
 
-<div align=center><img src="assets/IGLR.png" /></div>
+<div align=center><img src="assets/model.png" /></div>
 
 ### Abstract
 
